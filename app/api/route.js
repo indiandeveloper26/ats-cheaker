@@ -88,7 +88,7 @@ Return ONLY a JSON object:
             analysis = JSON.parse(cleaned);
         } catch (e) {
             console.error("❌ JSON parse failed:", cleaned);
-            throw new Error("Invalid AI response format");
+            throw new Error("Invalid AI response formatt");
         }
 
         return NextResponse.json({

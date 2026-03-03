@@ -3,13 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "scripts": {
-      "vercel-build": "npm install --legacy-peer-deps && next build"
-    },
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "next lint",
+    "install-all": "npm install --legacy-peer-deps"
   },
   "dependencies": {
     "@langchain/community": "^1.1.21",
