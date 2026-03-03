@@ -30,7 +30,7 @@ export default function page() {
       }
     } catch (error) {
       console.error("Error:", error);
-      alert(error.response?.data?.error || "Analysis failed. Please try again.");
+      alert(error.response?.data?.error || "Analysis failed. Please try again.e");
     } finally {
       setLoading(false);
     }
